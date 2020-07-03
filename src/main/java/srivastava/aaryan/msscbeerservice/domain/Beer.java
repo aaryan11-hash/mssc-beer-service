@@ -32,10 +32,12 @@ public class Beer {
 
     @CreationTimestamp
     private Timestamp lastModifiedDate;
+
     private String beerName;
 
     @Column(unique = true)
     private Long upc;
+
     private BigDecimal price;
 
     private Integer minOnHand;
