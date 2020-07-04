@@ -27,10 +27,10 @@ public class BeerDto {
     private Integer version;
 
     @Null
-    private OffsetDateTime createdDate;
+    private OffsetDateTime createDate;
 
     @Null
-    private OffsetDateTime lastmodifiedDate;
+    private OffsetDateTime lastModifiedDate;
 
     @NotBlank
     private String beerName;
@@ -40,7 +40,7 @@ public class BeerDto {
 
     @Positive
     @NotNull
-    private long upc;
+    private Long upc;
 
     @Positive
     @NotNull
